@@ -49,7 +49,7 @@
 }
 
 .body {
-  background: rgba(0, 0, 0, 0.7) url("/NetFlix/NetflixFrontPage.jpg");
+  background: rgba(0, 0, 0, 0.7) url("NetflixFrontPage.jpg");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: cover;
@@ -72,9 +72,11 @@ border: solid 5px grey;
 #enjoy{
     font-size: xx-large;
     font-weight: bold;
+    height: auto;
 }
 #enjoy1{
     font-size: x-large;
+    height: fit-content;
 }
 .set{
     margin: auto;
@@ -84,12 +86,16 @@ border: solid 5px grey;
     margin-top: 50px; */
 }
 #tv{
-    width: 400px;
-    margin-top: 120px;
-    margin-left: 50px;
+    width:300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    
 }
 #mobile{
-    height: 400px;
+    height: 280px;
+    width: 350px;
 }
 #device{
     height: 400px;
