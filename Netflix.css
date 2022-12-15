@@ -1,0 +1,190 @@
+#logo {
+  width: 250px;
+  height: 60px;
+  /* background-color: black; */
+}
+#Img {
+  width: 1400px;
+  height: 653px;
+}
+.all {
+  opacity: 1;
+}
+#sign {
+  margin-left: 35px;
+  margin-right: 50px;
+  background-color: red;
+}
+.eng {
+  color: aliceblue;
+  border-color: aliceblue;
+  pointer-events: initial;
+}
+.final {
+  color: white;
+  text-align: center;
+  text-justify: auto;
+  margin-top: 10%;
+  /* background-color: aqua; */
+}
+#myserch {
+  /* background-color: blue; */
+  margin: auto;
+  margin-left: 22.5%;
+  width: 420px;
+  height: 57px;
+}
+#mybtn {
+  width: 180px;
+  height: 57px;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: red;
+}
+#p {
+  width: auto;
+  font-size: 20px;
+  padding: 5px;
+  padding-top: 12px;
+}
+
+.body {
+  background: rgba(0, 0, 0, 0.7) url("/NetFlix/NetflixFrontPage.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-blend-mode: darken;
+ width:auto;
+ height: auto;
+ 
+}
+hr{
+margin: 0px;
+border: solid 5px grey;
+}
+
+.body2{
+    background: black  ;
+    color: white;
+    height: 500px;
+    
+}
+#enjoy{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#enjoy1{
+    font-size: x-large;
+}
+.set{
+    margin: auto;
+    margin-bottom: 50px;
+    
+    /* margin-left: 60px;
+    margin-top: 50px; */
+}
+#tv{
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+#mobile{
+    height: 400px;
+}
+#device{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    /* margin-bottom: 100px; */
+}
+.lastd{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#lasth{
+    font-size: 50px;
+    
+}
+.lasteng{
+    width: 800px;
+    height: 75px;
+    text-align: left;
+    /* background: rgba(0, 0, 0, 0.7); */
+    background-color: rgb(55, 53, 53);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+#lastset{
+   margin: auto;
+   margin-left: 270px;
+}
+.lasth1{
+    font-size: x-large;
+}
+.lastbody{
+    text-align: center;
+    height: auto;
+    height: 820px;
+    background: black  ;
+    color: white;
+    
+}
+#lastfinal{
+color: white;
+  margin:auto ;
+}
+
+#lastmybtn {
+    width: 180px;
+    height: 57px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: red;
+  }
+
+  #lastserch {
+    margin-left: 40px;
+    width: 420px;
+    height: 57px;
+  }
+  #lastp{
+    text-align: center;
+    width: auto;
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 12px;
+    margin-right: 230px;
+  }
+  .tail{
+    background: black  ;
+   
+
+   
+    
+  }
+  .rowset{
+text-align: left;
+margin-left: 180px;
+color: gray;
+opacity: 0.5;
+margin-top: 10px;
+
+
+}
+.lastspan{
+    color: gray;
+}
+.rowset1{
+text-align: left;
+margin-left: 195px;
+color: gray;
+opacity: 0.5;
+margin-top: 80px;
+
+
+
+
+}
