@@ -39,8 +39,8 @@
     /* color:white; */
     border-color: white;
     pointer-events: initial;
-    width: 110px;
-    margin-right: 10px;
+    width: 75px;
+    /* margin-right: 10px; */
   }
   .eng1 {
     /* color:white; */
@@ -48,6 +48,7 @@
     pointer-events: initial;
     width: auto;
     margin-top: 40px;
+    
   }
 
 .dropdown-item.hindi-item:hover,
