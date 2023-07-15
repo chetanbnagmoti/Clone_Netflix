@@ -39,7 +39,15 @@
     /* color:white; */
     border-color: white;
     pointer-events: initial;
-    width: 75px;
+    width: 110px;
+    margin-right: 10px;
+  }
+  .eng1 {
+    /* color:white; */
+    border-color: white;
+    pointer-events: initial;
+    width: auto;
+    margin-top: 40px;
   }
 
 .dropdown-item.hindi-item:hover,
@@ -129,5 +137,10 @@
 
 .break-line{
     background-color: black; 
-    border-bottom: 10px solid gray;
+    border-bottom: 10px solid rgb(32, 27, 27);
 }  
+.lastspan{
+    color: white;
+    text-decoration-line: underline;
+    
+}
