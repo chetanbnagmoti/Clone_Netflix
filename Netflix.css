@@ -10,16 +10,8 @@
 .all {
   opacity: 1;
 }
-#sign {
-  margin-left: 35px;
-  margin-right: 50px;
-  background-color: red;
-}
-.eng {
-  color: aliceblue;
-  border-color: aliceblue;
-  pointer-events: initial;
-}
+
+
 .final {
   color: white;
   text-align: center;
@@ -27,37 +19,8 @@
   margin-top: 10%;
   /* background-color: aqua; */
 }
-#myserch {
-  /* background-color: blue; */
-  margin: auto;
-  margin-left: 22.5%;
-  width: 420px;
-  height: 57px;
-}
-#mybtn {
-  width: 180px;
-  height: 57px;
-  font-size: x-large;
-  font-weight: bold;
-  background-color: red;
-}
-#p {
-  width: auto;
-  font-size: 20px;
-  padding: 5px;
-  padding-top: 12px;
-}
 
-.body {
-  background: rgba(0, 0, 0, 0.7) url("NetflixFrontPage.jpg");
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
-  background-blend-mode: darken;
- width:auto;
- height: auto;
- 
-}
+
 hr{
 margin: 0px;
 border: solid 5px grey;
@@ -69,11 +32,7 @@ border: solid 5px grey;
     height: 500px;
     
 }
-#enjoy{
-    font-size: xx-large;
-    font-weight: bold;
-    height: auto;
-}
+
 #enjoy1{
     font-size: x-large;
     height: fit-content;

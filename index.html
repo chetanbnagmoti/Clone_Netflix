@@ -8,108 +8,256 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="Netflix.css" />
-    
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"  />
+    <script src="./index.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class=" container-fluid body">
-            <div class="row">
-              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <!-- Just an image -->
-                <nav class="navbar navbar-light">
-                  <a class="navbar-brand" href="#">
-                    <svg
-                      id="logo"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="800"
-                      width="1200"
-                      viewBox="-153.6 -69.1855 1331.2 415.113"
-                    >
-                      <path
-                        fill="#d81f26"
-                        d="M140.803 258.904c-15.404 2.705-31.079 3.516-47.294 5.676L44.051 119.724v151.073C28.647 272.418 14.594 274.58 0 276.742V0h41.08l56.212 157.021V0h43.511zm85.131-157.558c16.757 0 42.431-.811 57.835-.811v43.24c-19.189 0-41.619 0-57.835.811v64.322c25.405-1.621 50.809-3.785 76.482-4.596v41.617l-119.724 9.461V0h119.724v43.241h-76.482zm237.284-58.104h-44.862V242.15c-14.594 0-29.188 0-43.239.539V43.242h-44.862V0H463.22zm70.266 55.132h59.187v43.24h-59.187v98.104h-42.433V0h120.808v43.241h-78.375zm148.641 103.507c24.594.539 49.456 2.434 73.51 3.783v42.701c-38.646-2.434-77.293-4.863-116.75-5.676V0h43.24zm109.994 49.457c13.783.812 28.377 1.623 42.43 3.242V0h-42.43zM1024 0l-54.863 131.615L1024 276.742c-16.217-2.162-32.432-5.135-48.648-7.838l-31.078-79.994-31.617 73.51c-15.678-2.705-30.812-3.516-46.484-5.678l55.672-126.75L871.576 0h46.482l28.377 72.699L976.705 0z"
-                      />
-                    </svg>
-                  </a>
-                  <form class="form-inline">
-                    <div class="d-flex">
-                      <div class="dropdown mr-1">
-                        <button
-                          type="button"
-                          class="btn btn-outline-danger dropdown-toggle eng"
-                          id="dropdownMenuOffset"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                          data-offset="10,20"
-                        >
-                          English
-                        </button>
-                        <div
-                          class="dropdown-menu"
-                          aria-labelledby="dropdownMenuOffset"
-                        >
-                          <a class="dropdown-item" href="#">हिंदी</a>
-                        </div>
-                      </div>
+  <div class="container-fluid text-white firstBg " style="border-bottom: 10px solid gray;" >
+    <div class="row">
+      <div class="col-12 mb-5">
+        <nav class="navbar navbar-light d-flex justify-content-between navbar-expand mb-5">
+          <a class="navbar-brand" href="#">
+            <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 -70 2800 380">
+              <path fill="#d81f26"
+                d="M140.803 258.904c-15.404 2.705-31.079 3.516-47.294 5.676L44.051 119.724v151.073C28.647 272.418 14.594 274.58 0 276.742V0h41.08l56.212 157.021V0h43.511zm85.131-157.558c16.757 0 42.431-.811 57.835-.811v43.24c-19.189 0-41.619 0-57.835.811v64.322c25.405-1.621 50.809-3.785 76.482-4.596v41.617l-119.724 9.461V0h119.724v43.241h-76.482zm237.284-58.104h-44.862V242.15c-14.594 0-29.188 0-43.239.539V43.242h-44.862V0H463.22zm70.266 55.132h59.187v43.24h-59.187v98.104h-42.433V0h120.808v43.241h-78.375zm148.641 103.507c24.594.539 49.456 2.434 73.51 3.783v42.701c-38.646-2.434-77.293-4.863-116.75-5.676V0h43.24zm109.994 49.457c13.783.812 28.377 1.623 42.43 3.242V0h-42.43zM1024 0l-54.863 131.615L1024 276.742c-16.217-2.162-32.432-5.135-48.648-7.838l-31.078-79.994-31.617 73.51c-15.678-2.705-30.812-3.516-46.484-5.678l55.672-126.75L871.576 0h46.482l28.377 72.699L976.705 0z" />
+            </svg>
+          </a>
+          <form class="form-inline">
+            <div class="dropdown mr-1 text-white">
+              <button type="button" class="btn dropdown-toggle eng text-white" id="dropdownMenuOffset" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                <i class="bi bi-globe2 ">&nbsp;&nbsp;</i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                <a class="dropdown-item hindi-item" href="#">हिंदी</a>
+                <a class="dropdown-item english-item" href="#">English</a>
+              </div>
+            </div>
+            <button type="button" class="btn btn-danger">
+              Sign in
+            </button>
+          </form>
+        </nav>
+      </div>
       
-                      <button type="button" class="btn btn-danger" id="sign">
-                        Sign in
-                      </button>
-                    </div>
-                  </form>
-                </nav>
+    </div>
+    <div class=" row " >
+         <div class="col-12 d-flex justify-content-center align-item-center text text-center">
+          <p style="font-size:35px; font-weight: bold;"><b>Unlimited Movies,TV shows and more.</b></p>
+         </div>
+         <div class="col-12 d-flex justify-content-center align-item-center text text-center">
+          <p class=" p ">Watch anywhere.Cancel anytime</p>
+         </div>
+         <div class="col-12 d-flex justify-content-center align-item-center text text-center">
+          <p  class=" p1 "> Redy to Watch ? Enter your email to create or restart your membership.</p>
+         </div>
+         <div class="col-12 d-flex justify-content-center align-item-center">
+          <form class="form-inline">
+            <div class="m-auto">
+              <input class="form-control mx-3" id="myserch" type="email" placeholder="Email Address" aria-label="email"/>
+            </div>
+            <div class="m-auto">
+              <button class="btn btn-danger my-4 " id="mybtn" type="submit" >Get Started ></button>
+            </div>
+          </form>
+         </div>
+    </div>  
+    
+  </div>
+
+<!-- 2nd Block :-  -->
+  <div class="container-fluid d-flex justify-content-center align-item-center break-line" >
       
-                  </div>
-                </div>
-                
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 mb-5 ">
+          <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <div><p class="box-heading">Enjoy on your TV.</p></div>
+            <div><p class="box-content">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p></div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 mb-5   position-relative">
+          <!-- <div class="d-flex justify-content-center align-items-center h-100"> -->
+            <div class="position-relative">
+              <img src="./Images/tv.png" alt="" style="max-width: 100%; max-height: 100%;" />
+              <video src="./Video/My Beautiful Landing Page.webm" autoplay muted loop class="position-absolute top-50 start-50 translate-middle tv-video" ></video>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    
+        
+  </div>
+
+
+  <!-- 3rd Block   -->
+  <div class="container-fluid d-flex justify-content-center align-items-center break-line">
+    <div class="container mt-5 mb-5" >
+      <div class="row  mt-5 mb-5">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12   position-relative">
+          <div class="position-relative ml-5 " >
+            <img src="./Images/mobile-0819.jpg" alt="" style="max-width: 80%; max-height: 80%;" />
+            <img src="./Images/Rutu.jpg" alt="" class="mobile-in-style position-absolute img-fluid mx-auto d-block "  />
+            <img src="./Images/StrnagThing.PNG" alt="" class="mobile-style position-absolute img-fluid mx-auto d-block "  />
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 mb-5  d-flex justify-content-center align-items-center">
+          <div class="text-center">
+            <p class="box-heading">Download your shows to watch offline.</p>
+            <p class="box-content">Save your favorites easily and always have something to watch.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4th block -->
+  <div class="container-fluid d-flex justify-content-center align-item-center break-line " >
       
-                <div class="container final">
-                  <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <h1>
-                    <b
-                      >Unlimited Movies,TV <br />
-                      shows and more.</b
-                    >
-                  </h1>
-                  <h4>Watch anywhere.Cancel anytime</h4>
-                  <p id="p">
-                    Redy to Watch ? Enter your email to create or restart your
-                    membership.
-                  </p>
-      
-                  <form class="form-inline">
-                    <input
-                      class="form-control mr-sm-2"
-                      id="myserch"
-                      type="email"
-                      placeholder="Email Address"
-                      aria-label="email"
-                    />
-                    <button
-                      class="btn btn-success btn-danger my-2 my-sm-0"
-                      id="mybtn"
-                      type="submit"
-                    >
-                      Get Started >
-                    </button>
-                  </form>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 mb-5 ">
+          <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <div><p class="box-heading">Watch everywhere.</p></div>
+            <div><p class="box-content">Stream unlimited movies and TV shows on <br />your phone, tablet, laptop, and TV.</p></div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 mb-5 position-relative">
+          <!-- <div class="d-flex justify-content-center align-items-center h-100"> -->
+            <div class="position-relative">
+              <img src="./Images/tv.png" alt="" style="max-width: 100%; max-height: 100%;" />
+              <video src="./Video/Untitled_ Jun 27, 2023 4_45 PM.webm" autoplay muted loop class="position-absolute top-50 start-50 translate-middle pizza-video" ></video>
+              <img src="./Images/SmallMobile.PNG" alt="" class="small-mobile-style position-absolute img-fluid mx-auto d-block "  />
+              <img src="./Images/DiwaliMobile.PNG" alt="" class="diwali-mobile-style position-absolute img-fluid mx-auto d-block "  />
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>   
+  </div>
+  <!-- 5th Block -->
+  <div class="container-fluid d-flex justify-content-center align-items-center break-line" >
+    <div class="container mt-5 mb-5" >
+      <div class="row  mt-5 mb-5">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12   position-relative">
+          <div class="position-relative ml-5 " >
+            <img src="./Images/childrern.png" alt="" style="max-width: 80%; max-height: 80%;" />
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 mb-5  d-flex justify-content-center align-items-center">
+          <div class="text-center">
+            <p class="box-heading">Create profiles for children.</p>
+            <p class="box-content">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 6th Block -->
+  <div class="container-fluid d-flex justify-content-center align-items-center break-line" >
+    <div class="container mt-5 mb-5  w-100">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-5 mb-5 text-center">
+          <h1 class="text-white font-weight-bold"><b>Frequently Asked Questions</b></h1>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 " >
+          <form class="form-inline d-flex flex-column justify-content-center align-item-center">
+            <div class="dropdown w-100 mt-1 mb-1" style="height: 95px;">
+              <button type="button" class="btn btn-danger w-100 h-100" style="background-color: rgb(73, 70, 70); border:none;border-radius: 0px;" id="dropdownMenuOffset1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                <div class="d-flex justify-content-between">
+                  <h1 style="font-size: x-large;">What is Netflix?</h1>
+                  <samp><i class="bi bi-plus-lg icon-large"></i></samp> 
                 </div>
-                </div>
-                </div>
+              </button>
+              <!-- <div class="dropdown-menu w-100" style="background-color: gray; position: absolute; top: 100%; left: 0;" aria-labelledby="dropdownMenuOffset1">
+                <a class="dropdown-item w-100" href="#">हिंदी</a>
+              </div> -->
+            </div>
             
-            <br><br><br><br><br><br>
-          </div> 
+            <div class="dropdown w-100 mt-1 mb-1" style="height: 95px;">
+              <button type="button" class="btn btn-danger w-100 h-100" style="background-color: rgb(73, 70, 70); border:none;border-radius: 0px;" id="dropdownMenuOffset1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                <div class="d-flex justify-content-between ">
+                  <h1 style="font-size: x-large;"> How much does Netflix cost?</h1>
+                  <samp><i class="bi bi-plus-lg icon-large" ></i></samp> 
+                </div>
+              </button>
+              <!-- <div class="dropdown-menu w-100" style="background-color: gray;" aria-labelledby="dropdownMenuOffset1">
+                <a class="dropdown-item w-100 " href="#">हिंदी</a>
+              </div> -->
+            </div>
+            <div class="dropdown w-100 mt-1 mb-1" style="height: 95px;">
+              <button type="button" class="btn btn-danger w-100 h-100" style="background-color: rgb(73, 70, 70); border:none;border-radius: 0px;" id="dropdownMenuOffset1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                <div class="d-flex justify-content-between ">
+                  <h1 style="font-size: x-large;">Where can I watch?</h1>
+                  <samp><i class="bi bi-plus-lg icon-large" ></i></samp> 
+                </div>
+              </button>
+              <!-- <div class="dropdown-menu w-100" style="background-color: gray;" aria-labelledby="dropdownMenuOffset1">
+                <a class="dropdown-item w-100 " href="#">हिंदी</a>
+              </div> -->
+            </div>
+            <div class="dropdown w-100 mt-1 mb-1" style="height: 95px;">
+              <button type="button" class="btn btn-danger w-100 h-100" style="background-color: rgb(73, 70, 70); border:none;border-radius: 0px;" id="dropdownMenuOffset1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                <div class="d-flex justify-content-between ">
+                  <h1 style="font-size: x-large;"> How do I cancel?</h1>
+                  <samp><i class="bi bi-plus-lg icon-large" ></i></samp> 
+                </div>
+              </button>
+              <!-- <div class="dropdown-menu w-100" style="background-color: gray;" aria-labelledby="dropdownMenuOffset1">
+                <a class="dropdown-item w-100 " href="#">हिंदी</a>
+              </div> -->
+            </div>
+            <div class="dropdown w-100 mt-1 mb-1" style="height: 95px;">
+              <button type="button" class="btn btn-danger w-100 h-100" style="background-color: rgb(73, 70, 70); border:none;border-radius: 0px;" id="dropdownMenuOffset1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                <div class="d-flex justify-content-between ">
+                  <h1 style="font-size: x-large;">What can I watch on Netflix?</h1>
+                  <samp><i class="bi bi-plus-lg icon-large" ></i></samp> 
+                </div>
+              </button>
+              <!-- <div class="dropdown-menu " style="background-color: gray;" aria-labelledby="dropdownMenuOffset1">
+                <a class="dropdown-item w-100 " href="#">हिंदी</a>
+              </div> -->
+            </div>
+            <div class="dropdown w-100 mt-1 mb-1" style="height: 95px;">
+              <button type="button" class="btn btn-danger w-100 h-100" style="background-color: rgb(73, 70, 70); border:none;border-radius: 0px;" id="dropdownMenuOffset1"  aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                <div class="d-flex justify-content-between ">
+                  <h1 style="font-size: x-large;">Is Netflix good for kids?</h1>
+                  <samp><i class="bi bi-plus-lg icon-large" ></i></samp> 
+                </div>
+              </button>
+              <!-- <div class="dropdown-menu w-100" style="background-color: gray;" aria-labelledby="dropdownMenuOffset1">
+                <a class="dropdown-item w-100 " href="#">हिंदी</a>
+              </div> -->
+            </div>
+          </form>
+        </div>
+        <div class=" col-12 d-flex justify-content-center align-item-center text text-center mt-5">
+            <p class=" p1 text-white"> Redy to Watch ? Enter your email to create or restart your membership.</p>  
+        </div>
+        <div class="col-12 d-flex justify-content-center align-item-center text-white">
+          <form class="form-inline">
+            <div class="m-auto">
+              <input class="form-control mx-3" id="myserch" type="email" placeholder="Email Address" aria-label="email"/>
+            </div>
+            <div class="m-auto">
+              <button class="btn btn-danger my-4 " id="mybtn" type="submit" >Get Started ></button>
+            </div>
+          </form>
+         </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- last block -->
+  
 
 
-
-
-
-   </div>
+   
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,133 @@
+#logo {
+    width: 250px;
+    height: 60px;
+    /* background-color: black; */
+  }
+
+.p {
+    font-size: 30px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+  }
+.p1 {
+    font-size: 20px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+}
+  #myserch {
+    width: 420px; 
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 50px;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+  }
+
+  #mybtn {
+    width: 180px;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: red;
+  }
+
+  .eng {
+    /* color:white; */
+    border-color: white;
+    pointer-events: initial;
+    width: 75px;
+  }
+
+.dropdown-item.hindi-item:hover,
+.dropdown-item.hindi-item:focus {
+  background-color: blue;
+}
+
+.dropdown-item.english-item:hover,
+.dropdown-item.english-item:focus {
+  background-color: blue;
+}
+
+.firstBg {
+    background: rgba(0, 0, 0, 0.7) url("./Images/NextBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+   
+    height: 680px;
+  }
+
+.box-heading{
+        font-size: 42px;
+        font-weight: bold;
+        height: auto;
+        color: white;
+        text-align: center;
+        margin: auto;
+}
+
+.box-content{
+    font-size: 16px;
+    height: fit-content;
+    text-align: left;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.tv-video{
+    max-width: 73%;
+    max-height: 98%;
+    transform: translate(-119%, 53%);
+}
+
+.mobile-style{
+    bottom: -35px;
+    /* transform: translateX(0%); */
+    border-radius: 15px;
+    border: 5px solid gray;
+    width: 300px;
+    height: 79px;
+   
+}
+.mobile-in-style{
+    max-width: 58%;
+    max-height: 55%;
+    transform: translate(72%, -128%);
+}
+.pizza-video{
+    max-width: 73%;
+    max-height: 98%;
+    transform: translate(-119%, 38%);
+}
+
+.small-mobile-style{
+    max-width: 58%;
+    max-height: 55%;
+    transform: translate(64%, -90%);
+    transform-box: view-box;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+.diwali-mobile-style{
+    max-width: 58%;
+    max-height: 55%;
+    transform: translate(246%, -95%);
+    transform-box: view-box;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+
+.icon-large {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+.break-line{
+    background-color: black; 
+    border-bottom: 10px solid gray;
+}  
